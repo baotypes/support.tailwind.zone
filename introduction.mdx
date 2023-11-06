@@ -1,6 +1,7 @@
 ---
-title: Introduction
-description: 'Welcome to the home of your new documentation'
+title: Why Tailwind?
+description: "We'll go over the current UX landscape in Cosmos and why 
+your Dapp will benefit immensely from integrating Tailwind."
 ---
 
 <img
@@ -9,29 +10,70 @@ description: 'Welcome to the home of your new documentation'
   alt="Hero Light"
 />
 <img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
+  className="hidden dark:block rounded-lg"
+  src="/images/dark.png"
   alt="Hero Dark"
 />
 
-## Setting up
+## Bringing Users to your Cosmos Dapp
 
-The first step to world-class documentation is setting up your editing environnments.
+While app-chains scale very well, consumers hate app-chain UX. Because
+each app is on a new chain, users are required to move tokens before using
+a new app. Funds are easily fragmented across chains, and IBC makes them path-dependent, 
+requiring developer expertise to un-wind. 
+
+To make things worse, each app has their own gas token. Users have to 
+do 3-5 additional clicks to get requisite gas. 
+
+<Tip>
+  For example, to stake ATOM on Umee, users need to swap for UMEE gas on Osmosis, 
+  send UMEE out, send ATOM out, and then go to the Dapp.
+</Tip>
+
+In the worst case, they get their money stuck and stop using your 
+application altogether.
+
+## Why Tailwind?
+
+Tailwind enables a seamless cross-chain experience for your users. Before using 
+your Dapp, users no longer have to transfer tokens. Their tokens are automatically
+moved and gas provisioned before signing. 
+
+With Tailwind, users can bring liquidity to your application in 1-click, as opposed 
+to 5 or more.  
+
+{ /*
+ 
+## How is this Possible? 
+
+Tailwind inspects the document that you, the developer, requested signing for, 
+and automatically provision funds and gas from the document info. 
+
+To the user, this experience is done in 1-click, but under the hood,
+multiple documents are provisioned, signed, and broadcasted before the signature
+for the document you requested is delivered.
+
+*/ }
+
+## Integrate in Under 5 Minutes
+
 
 <CardGroup cols={2}>
   <Card
-    title="Edit Your Docs"
+    title="Using Cosmoskit"
     icon="pen-to-square"
     href="https://mintlify.com/docs/quickstart"
   >
-    Get your docs set up locally for easy development
+    Integrate right away by adding 
+    2 lines of code to your Cosmoskit.
   </Card>
   <Card
-    title="Preview Changes"
-    icon="image"
+    title="Using Tailwind API"
+    icon="code"
     href="https://mintlify.com/docs/development"
   >
-    Preview your changes before you push to make sure they're perfect
+    Take advantage of Tailwind's full capabilities using 
+    our Custom API. 
   </Card>
 </CardGroup>
 

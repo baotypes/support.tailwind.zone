@@ -8,8 +8,12 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#8000ff",
-    "light": "#8000ff",
-    "dark": "#8000ff" 
+    "dark": "#8000ff",
+    "light": "#962EFF",
+    "anchors": {
+      "from": "#111111",
+      "to": "#8000ff"
+    }
   },
   "topbarLinks": [
     {
@@ -27,7 +31,7 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [ 
+  "anchors": [
     {
       "name": "Website",
       "icon": "book-open-cover",
