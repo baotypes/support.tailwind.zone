@@ -58,6 +58,13 @@
       ]
     },
     {
+      "group": "Integrating Tailwind",
+      "pages": [
+        "cosmoskit",
+        "custom-API"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
