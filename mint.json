@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "User Guide",
+      "url": "user-guide"
     }
   ],
   "anchors": [
@@ -86,6 +90,19 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "user-guide/introduction",
+        "user-guide/onboard"
+      ]
+    },
+    {
+      "group": "Security",
+      "pages": [
+        "user-guide/security/basics"
       ]
     }
   ],
