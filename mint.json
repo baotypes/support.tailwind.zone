@@ -26,14 +26,7 @@
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
-    {
-      "name": "User Guide",
-      "url": "user-guide"
-    }
+
   ],
   "anchors": [
     {
@@ -56,53 +49,13 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
       "group": "Integrating Tailwind",
       "pages": [
-        "cosmoskit",
-        "custom-API"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "user-guide/introduction",
-        "user-guide/onboard"
-      ]
-    },
-    {
-      "group": "Security",
-      "pages": [
-        "user-guide/security/basics"
+        "cosmoskit"
       ]
     }
   ],
