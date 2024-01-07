@@ -2,3 +2,45 @@
 title: 'Using Cosmoskit'
 description: "If you're already using Cosmoskit, this is the fastest way to start."
 ---
+
+# How does TAILWIND bring liquidity to your Cosmos Dapp?
+
+
+# 1-Click Sign API
+
+
+## Declarative Funds Move and Gas Estimation
+```typescript
+const signer = client.getOfflineSigner("cosmoshub");
+const signingClient = await SigningStargateClient.connectWithSigner(
+  RPC_URL,
+  signer
+);
+
+signer.declareFundsRequired?.(
+  token: { denom: "uosmo", chain: "osmosis" },
+  amount: "424342",
+  dst_chain: "neutron"
+);
+
+signer.declareMaxGasEstimate?.(
+  400_000,
+  "neutron"
+);
+
+const res = await signingClient.signAndBroadcast(tx)
+```
+
+Because the funds are not there, you cannot simulate for
+transaction signing. Rather, we move funds for you, and 
+then estimate gas for the transaction.
+
+The gas specified is a max gas upper bound to show your user.
+There is a default gas limit that is used if you do not specify. 
+
+Since devs would know best how much gas is needed, we allow
+you to specify the gas limit.
+
+## Utilities
+Here are some utilities to use for getting data above. 
+
