@@ -59,16 +59,13 @@ const signingClient = await SigningStargateClient.connectWithSigner(
   signer
 );
 
-signer.declareFundsRequired?.(
+signer.declareFundsRequired?.({
   token: { denom: "uosmo", chain: "osmosis" },
   amount: "424342",
   dst_chain: "neutron"
-);
+});
 
-signer.declareMaxGasEstimate?.(
-  400_000,
-  "neutron"
-);
+signer.declareMaxGasEstimate?.(400_000);
 
 const res = await signingClient.signAndBroadcast(tx)
 ```
