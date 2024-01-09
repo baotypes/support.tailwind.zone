@@ -53,8 +53,10 @@ Because the funds are not there, you cannot simulate for
 transaction signing. Rather, we move funds for you, and 
 then estimate gas for the transaction.
 
+Moving OSMO to Neutron from one or more of 50+ IBC chains
+that user's OSMO might be on: 
 ```typescript
-const signer = client.getOfflineSigner("cosmoshub");
+const signer = client.getOfflineSigner("neutron");
 const signingClient = await SigningStargateClient.connectWithSigner(
   RPC_URL,
   signer
