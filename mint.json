@@ -15,9 +15,7 @@
       "to": "#8000ff"
     }
   },
-  "tabs": [
-
-  ],
+  "tabs": [],
   "anchors": [
     {
       "name": "Website",
@@ -39,13 +37,58 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        "introduction",
+        "get-tailwind"
       ]
     },
     {
-      "group": "Integrating Tailwind",
+      "group": "Using the Wallet",
       "pages": [
-        "cosmoskit"
+        "Ramp from Fiat",
+        "Double Yield with Liquid Staking",
+        "Swap and Sign"
+      ]
+    },
+    {
+      "group": "DeFi with Tailwind",
+      "pages": [ 
+        {
+          "group": "Liquid Staking",
+          "pages": [
+            "With TAILWIND",
+            "Stride",
+            "milkTIA"
+          ]
+        },
+        {
+          "group": "Lending and Borrowing",
+          "pages": [
+            "Osmosis",
+            "Umee",
+            "Mars Protocol"
+          ]
+        },
+        {
+          "group": "Perps and Leverage",
+          "pages": [
+            "Levana",
+            "dYdX"
+          ]
+        },
+        {
+          "group": "NFTs",
+          "pages": [
+            "Stargaze"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Configuring your Wallet",
+      "pages": [
+        "Get chain address",
+        "Revoking Permissions",
+        "Manual chain transfer"
       ]
     }
   ],
