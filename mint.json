@@ -19,7 +19,7 @@
   "anchors": [
     {
       "name": "Website",
-      "icon": "book-open-cover",
+      "icon": "building",
       "url": "https://tailwind.zone"
     },
     {
@@ -31,6 +31,11 @@
       "name": "Twitter",
       "icon": "twitter",
       "url": "https://twitter.com/TailwindZone"
+    },
+    {
+      "name": "Extension",
+      "icon": "shield-halved",
+      "url": "https://chromewebstore.google.com/detail/dpnfollacokcbkeiidhplhjpafkbfacj"
     }
   ],
   "navigation": [
