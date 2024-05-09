@@ -15,7 +15,10 @@
       "to": "#8000ff"
     }
   },
-  "tabs": [],
+  "tabs": [ {
+    "name": "Bug Bounties",
+    "url": "bug-bounties"
+  }],
   "anchors": [
     {
       "name": "Website",
@@ -55,45 +58,10 @@
       ]
     },
     {
-      "group": "DeFi with Tailwind",
-      "pages": [ 
-        {
-          "group": "Liquid Staking",
-          "pages": [
-            "With TAILWIND",
-            "Stride",
-            "milkTIA"
-          ]
-        },
-        {
-          "group": "Lending and Borrowing",
-          "pages": [
-            "Osmosis",
-            "Umee",
-            "Mars Protocol"
-          ]
-        },
-        {
-          "group": "Perps and Leverage",
-          "pages": [
-            "Levana",
-            "dYdX"
-          ]
-        },
-        {
-          "group": "NFTs",
-          "pages": [
-            "Stargaze"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Configuring your Wallet",
+      "group": "Bug-finding Incentives",
       "pages": [
-        "Get chain address",
-        "Revoking Permissions",
-        "Manual chain transfer"
+        "bug-bounties/intro",
+        "bug-bounties/white-hat"
       ]
     }
   ],
