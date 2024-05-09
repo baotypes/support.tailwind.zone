@@ -15,10 +15,12 @@
       "to": "#8000ff"
     }
   },
-  "tabs": [ {
-    "name": "Bug Bounties",
-    "url": "bug-bounties"
-  }],
+  "tabs": [
+    {
+      "name": "Bug Bounties",
+      "url": "bug-bounties"
+    }
+  ],
   "anchors": [
     {
       "name": "Website",
@@ -45,16 +47,8 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "intro",
         "get-tailwind"
-      ]
-    },
-    {
-      "group": "Using the Wallet",
-      "pages": [
-        "Ramp from Fiat",
-        "Double Yield with Liquid Staking",
-        "Swap and Sign"
       ]
     },
     {
