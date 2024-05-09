@@ -58,10 +58,10 @@
       ]
     },
     {
-      "group": "Bug-finding Incentives",
+      "group": "Bug-Finding Incentives",
       "pages": [
         "bug-bounties/intro",
-        "bug-bounties/white-hat"
+        "bug-bounties/whitehat"
       ]
     }
   ],
